@@ -13,9 +13,9 @@ If you can physically press the keys, then by all means do that. However, Zzz is
 ### Download Zzz.zip
 [Zzz.zip](https://github.com/efmeeks/Zzz/archive/master.zip)
 ### Unzip the archive
-`unzip Zzz.zip`
+`unzip Zzz-master.zip`
 ### Open the folder
-`cd Zzz`
+`cd Zzz-master`
 ### Ensure `zzz.sh` is executable
 `chmod +x zzz.sh`
 ### Run `zzz.sh`
