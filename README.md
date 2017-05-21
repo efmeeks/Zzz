@@ -11,7 +11,7 @@ If you can physically press the keys, then by all means do that. However, Zzz is
 
 ## Usage
 ### Download Zzz.zip
-[Zzz.zip](../files/Zzz.zip)
+[Zzz.zip](https://github.com/efmeeks/Zzz/archive/master.zip)
 ### Unzip the archive
 `unzip Zzz.zip`
 ### Open the folder
