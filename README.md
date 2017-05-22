@@ -1,4 +1,5 @@
 # Zzz
+![Screenshot](/zzz-ss.png)
 
 A command line tool that blanks your Mac display without putting the machine to sleep.
 
