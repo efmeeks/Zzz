@@ -1,23 +1,21 @@
 #!/bin/bash
 
-cat <<'END'
-  ________  ________  ________     
- |\_____  \|\_____  \|\_____  \    
-  \|___/  /|\|___/  /|\|___/  /|   
-     /  / /    /  / /    /  / /   
-    /  /_/__  /  /_/__  /  /_/__  
+cat << "HEAD"
+  ________  ________  ________
+ |\_____  \|\_____  \|\_____  \
+  \|___/  /|\|___/  /|\|___/  /|
+     /  / /    /  / /    /  / /
+    /  /_/__  /  /_/__  /  /_/__
    |\________\\________\\________\
     \|_______|\|_______|\|_______|
 
-        Ambien for macOS
-        
-        2017 Eric Meeks
-        www.efm.io
+         2017 Eric Meeks
+         www.efm.io
 
 Sleeps your Mac display, but not your Mac.
 Equivalent to Control–Shift–Eject.
 
-END
+HEAD
 
 ZZZ=`which zzz`
 
@@ -27,6 +25,7 @@ select opt in "${options[@]}"
 do
     case $opt in
         "Sleep display now")
+            clear
             pmset displaysleepnow
             break
             ;;
@@ -41,6 +40,7 @@ do
         "Quit")
             break
             ;;
-        *) echo invalid option;;
+        *) echo "invalid option"
+            ;;
     esac
 done
