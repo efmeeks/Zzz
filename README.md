@@ -1,6 +1,6 @@
 # zzz
 
-`zzz` is a command line tool to blank your Mac display without putting the machine to sleep. It is the cli equivalent of [Control–Shift–Eject](https://support.apple.com/en-us/HT201236). ***macOS only***.
+`zzz` is a command line tool to blank your Mac display without putting the machine to sleep. It is the CLI equivalent of [Control–Shift–Eject](https://support.apple.com/en-us/HT201236). ***macOS only***.
 
 > **Why not just use ⌃⇧⏏ ?**
 > 
@@ -15,7 +15,6 @@
 
 ## Usage
 ```text
-  Usage
     zzz [option] command
   
   Options
@@ -26,6 +25,4 @@
     [s]leep       | Sleep display (default)
     [i]nstall     | Make \`zzz\` a command in your \$PATH
     [u]ninstall   | Remove \`zzz\`
-
-
 ```
