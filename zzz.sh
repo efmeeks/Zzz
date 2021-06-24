@@ -56,7 +56,7 @@ install() {
     echo "zzz is already installed at $(which zzz)"
   else
     [ -z "$ipath" ] && ipath="/usr/local/bin"
-    curl -sL file.efmeeks.net/zzz/zzz.sh -o "$ipath/zzz"
+    curl -sL https://raw.githubusercontent.com/efmeeks/zzz/master/zzz.sh -o "$ipath/zzz"
     chmod +x "$ipath/zzz"
     [ -z "$(which zzz)" ] && echo "Make sure $ipath is in your \$PATH" || echo "zzz installed"
   fi
